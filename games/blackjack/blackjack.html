@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		
+		<link rel="stylesheet" href="blackjack.css" type="text/css"></link>
+		<title>BlackJack</title>
+
+	</head>
+	<body>
+		<div id="header">
+		<h1 id="title">Let's Play BlackJack!</h1>
+		<p id="stats"></p>
+		<button type="button" id="newGameButton" class="gone">New Game!</button>
+		</div>
+		<div id="player-name">
+			<input  type="text"	placeholder="What is your name?" id="playerNameInput">
+			<button type="button" id="playerNameButton"> Submit	</button>
+		</div>
+
+		<div id="game-area" class="hidden">
+			
+			<div id="player">
+			<h1 id="playerScore"></h1>
+			<p id="playerHand"></p>
+			<p id="bet"></p>
+			</div>
+			<div id="dealer">
+			<h1 id="dealerScore"></h1>
+			<p id="dealerHand"></p>
+			<p id="returnBet"></p>
+			</div>
+			<p id="help" class="hidden"></p>
+			<div id="game-buttons" class = "hidden">
+				<button type="button" id="hitButton"> Hit! </button>
+				<button type="button" id="DDButton" class="hidden">Double Down</button>
+				<button type="button" id="betButton">Bet £2</button>
+				<button type="button" id="stickButton"> Stick! </button>
+			</div>
+		</div>
+
+		<div id="game-over-area" class="hidden">
+		</div>
+
+		
+
+		<script type="text/javascript" src="blackjackObj.js"></script>
+		<script type="text/javascript" src="blackjack.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,27 @@
+#title {	font-size: 26pt;	}
+
+#reset-area {
+	float: right;
+	padding-right: 100px;
+}
+
+html, body {
+	color: white;
+	font-family: sans-serif;
+    text-align: center;
+    background-image: url("background1440.jpg");
+}
+
+.hidden {	visibility: hidden;	}
+
+.gone {	visibility: hidden;	display: none;	}
+
+#header {	margin: 10px;	}
+
+#player {	display: inline-block;	/*margin-right: 25%; margin-left: 5%;*/ width: 40%;  padding: 10px;}
+#dealer {	display: inline-block;	/*margin-left: 25%;  margin-right: 5%;*/ width: 40%;  padding: 10px;}
+
+#help {	position:relative; margin-left: auto; margin-right: auto; margin-top: 10px; 	}
+#game-buttons {	height: 50px; position:relative; margin-left: auto;	margin-right: auto; margin-top: 10px;}
+#playerHand { height: 60px;	}
+#dealerHand { height: 60px;	}
