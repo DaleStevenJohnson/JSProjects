@@ -1,0 +1,115 @@
+/*Font Declarations*/
+@font-face { font-family: brandon; src: url('fonts/brandon.otf'); }
+@font-face { font-family: bromello; src: url('fonts/bromello.otf'); }
+@font-face { font-family: geometria; src: url('fonts/geometriaLight.otf'); }
+@font-face { font-family: jacquesandgilles; src: url('fonts/jacques.otf'); }
+@font-face { font-family: playfair; src: url('fonts/playfairReg.otf'); }
+@font-face { font-family: amatic; src: url('fonts/amaticBold.ttf'); }
+@font-face { font-family: blockl; src: url('fonts/blockReg.ttf'); }
+@font-face { font-family: wendy; src: url('fonts/wendyMed.ttf'); }
+
+h3 {
+	display:inline;
+	font-family: brandon;
+}
+h2 {
+	display:inline;
+	font-family: brandon;
+}
+
+
+img#titleImage {
+	display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+img.thumbs {
+	padding: 10px;
+	height: 15%;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div#thumbMenu {
+
+	width: 180px;
+	height: 475px;
+	background: #ffcb08;
+	float: left;
+	display: block;
+	position: absolute;
+}
+
+div#selectedTemplate {
+	position: relative;
+	top: 14px;
+	
+	
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+
+
+div#page {
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 500px;
+	width: 718px;
+	font-family: brandon;
+	
+}
+
+div#textEditor {
+	position: relative;
+	top: 150px;
+	right: 10px;
+	width: 180px;
+	height: 300px;
+	float: right;
+	display:inline;
+	
+}
+
+div#templateText {
+	position: relative;
+	/*top: 405px;
+	left: 45px;*/
+	line-height: 100%
+	height: 20px;
+	text-align: center;
+}
+
+p#line1{
+	position:relative;
+	display:inline;
+	
+
+}
+
+p#line2{
+	position:relative;
+	
+
+	
+	font-size: 15px;
+
+}
+
+div#infoBox {
+	padding: 10px;
+	font-family: brandon;
+}
+
+.hidden {
+	visibility: hidden;
+	display: none;
+}

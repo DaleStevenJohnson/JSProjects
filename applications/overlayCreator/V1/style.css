@@ -1,0 +1,62 @@
+img#titleImage {
+	display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+img.thumbs {
+	padding: 10px;
+	height: 15%;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div#thumbMenu {
+
+	width: 180px;
+	height: 475px;
+	background: #ffcb08;
+	float: left;
+	display: block;
+	position: absolute;
+}
+
+img#selectedTemplate {
+
+	padding-top: 10px;
+	padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    position: absolute;
+    text-align: center;
+
+}
+
+div#selectedTemplateArea {
+	background: #ffcb08;
+	margin-left: auto;
+    margin-right: auto;
+    width: 475px;
+	height: 475px;
+	display: block;
+
+}
+
+body {
+	
+}
+
+p.fourupText{
+
+}
+
+.hidden {
+	visibility: hidden;
+	display: none;
+}

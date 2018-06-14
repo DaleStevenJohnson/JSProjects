@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="libraries/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="copy.js"></script>
+	<script type="text/javascript" src="code.js"></script>
+	<meta charset="utf-8">
+	<title>Sketch out your Perfect Print Template</title>
+</head>
+
+
+<body>
+
+	<div id="page" class ="hidden"> 
+
+		<div id = "textEditor" class="hidden"> 
+			<h3> Font Colour </h3> </br>
+			<input type="button" id = "black" value="Black">
+			<input type="button" id = "white" value="White">
+			</br>
+			<h3> Font Size </h3>
+			<input type="range" id="fontSize" min="-5" max="5" step="1" value="0" onchange="changeFontSize('fontSize', 'line1')">
+			</br>
+			</br>
+			<h3> Line 1 text </h3>
+			<input type="input" id = "input1" class="inputBox" placeholder="'Mr Smith's big Party'" >
+			</br>
+			<h3>Line 2 text</h3>
+			<input type="input" id = "input2" placeholder="'12/07/2019'" >
+			<input type="button" id = "submitDesign" value="Submit!">
+		</div>
+		<div id="selectedTemplate" class="hidden" style="width: 312px; height: 473px; left: 203px;">
+			<div id="templateText" class="hidden" style="top: 405px;left: 45px;width: 225px;"> 
+				
+				<p id="line1" style="font-size: 25px"> </p>
+				<p id="line2" style="font-size: 15px;top: -20px;"> </p>
+				
+			</div>
+		</div>
+
+	</div>
+
+	<div id="infoBox"> 
+		<h3> The JustPose™ Print Template Sketcher</h3>
+		<p id="infoText"> </p>
+
+
+
+	</div>
+
+	<!-- <img id="titleImage" src="images/jptitle.png">
+
+	<div id="thumbMenu">
+	<img id="fourupThumb" class="thumbs" src="images/fourupThumb.jpg" placeholder="Four Up Style Layout">
+	<img id="bigtopThumb" class="thumbs" src="images/bigtopThumb.jpg" placeholder="Big Top Style Layout">
+	<img id="singleThumb" class="thumbs" src="images/singleThumb.jpg" placeholder="Single Style Layout">
+	</div>
+	
+	<div id="selectedTemplateArea">
+		<img id="selectedTemplate" class="portraitPostcard" src="images/fourupWhite.jpg">
+	</div> -->
+
+
+
+
+
+</body>
+
+
+
+</html>
